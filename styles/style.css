@@ -1,37 +1,60 @@
+/* common shared styles */
 body {
     font-family: 'Chela One', cursive;
     font-family: 'Open Sans', sans-serif;
 }
 
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.section-description {
+    color:  #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* header related */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin:  0 200px;
+    margin: 0 200px;
 }
-.nav-brand{
+
+.nav-brand {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
 }
-.text-primary{
-    color:#FD6E0A ;
+
+.text-primary {
+    color: #FD6E0A;
 }
-nav > ul{
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style-type: none;
     margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #474747;
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 5px;
-    background-color:#FD6E0A ;
+    background-color: #FD6E0A;
     height: 64px;
     width: 150px;
     border: none;
@@ -42,14 +65,52 @@ nav a{
 
 /* header related styles */
 
-.header{
+.header {
     background-color: #FFF8F3;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
-.banner{
-    margin: 30px 30px 30px 150px;
+
+.banner {
+    margin: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.profile-pic{
+
+.banner-content {
+    max-width: 500px;
+}
+
+.banner .profile-pic {
     width: 500px;
+}
+
+.banner-greetings {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    margin-bottom: 50px;
+}
+
+
+/* main section */
+/* about section style */
+
+.about {
+    margin: 130px 0;
+    padding: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
 }
